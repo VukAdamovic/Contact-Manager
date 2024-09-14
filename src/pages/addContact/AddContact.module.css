@@ -1,0 +1,46 @@
+#add-contact {
+    font-family: inherit;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    /*padding-top: 1rem;*/
+    padding-bottom: 9rem;
+}
+
+#add-contact form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#add-contact h3 {
+    margin-top: 2.5rem;
+    width: 100%;
+    text-align: center;
+}
+
+.error {
+    color: rgba(255, 0, 0, 0.7);
+    font-size: 0.75rem;
+    margin-top: -0.75rem;
+    text-align: center;
+}
+
+.successMessage {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    border-radius: 0.625rem;
+    text-align: center;
+}
+

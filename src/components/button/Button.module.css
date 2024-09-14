@@ -1,0 +1,22 @@
+#btn {
+    font-family: inherit;
+    color: inherit;
+    background-color: #318681;
+    border: none;
+    border-radius: 0.625rem; /* 10px / 16px = 0.625rem */
+    padding: 0.625rem 1.25rem; /* 10px / 16px = 0.625rem, 20px / 16px = 1.25rem */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1rem; /* 16px / 16px = 1rem */
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    gap: 0.5rem; /* 8px / 16px = 0.5rem */
+}
+
+#btn span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

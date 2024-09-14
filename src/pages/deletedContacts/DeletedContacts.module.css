@@ -1,0 +1,40 @@
+#deleted-container {
+    font-family: inherit;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 6rem;
+}
+
+#deleted-container h1 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    margin: 0;
+    max-width: inherit;
+    text-align: center;
+}
+
+#deleted-container ul {
+    width: 100%;
+    padding: 0;
+}
+
+#deleted-container li {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+@media (min-width: 62.5rem) {
+    #deleted-container ul {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}

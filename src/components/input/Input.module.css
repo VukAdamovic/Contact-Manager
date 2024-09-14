@@ -1,0 +1,68 @@
+#input {
+    font-family: inherit;
+    color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+    width: 80%;
+}
+
+#input input,
+#input textarea {
+    font-size: 0.75rem;
+    border: none;
+    border-radius: 0.625rem;
+    padding: 1rem;
+    width: 100%;
+    background: rgba(67, 67, 67, 0.5);
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+    font-family: inherit;
+    color: inherit;
+}
+
+#input textarea {
+    resize: none;
+    min-height: 7.5rem;
+    max-height: 18.75rem;
+}
+
+#input input::placeholder,
+#input textarea::placeholder {
+    color: inherit;
+}
+
+#search-bar input:focus,
+#search-bar textarea:focus {
+    outline: none;
+}
+
+#input input:focus-within,
+#input textarea:focus-within {
+    outline: 0.0625rem solid rgba(64, 224, 208, 0.5);
+}
+
+#input input[type="date"] {
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: rgba(67, 67, 67, 0.5);
+    color: inherit;
+    padding: 1rem;
+    font-size: 0.75rem;
+    border-radius: 0.625rem;
+    border: none;
+    width: 100%;
+    text-align: start;
+}
+
+#input input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+
+@media (min-width: 62.5rem) {
+    #input {
+        width: 50%;
+    }
+}

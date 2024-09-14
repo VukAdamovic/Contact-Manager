@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Nothing+You+Could+Do&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px 'Montserrat', sans-serif;
+    color: #f8f8f8;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(180deg, #222C31 0%, #111D32 100%);
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    /*padding: 0;*/
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+main {
+    width: 100%;
+    padding: 0;
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.no-copy {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+
+.no-text-copy {
+    user-select: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    /*padding: 0 0.9375rem; !* Padding sa leve i desne strane *!*/
+    padding-left: 0.9375rem ; /* 15px / 16px = 0.9375rem */
+    padding-right: 0.9375rem ; /* 15px / 16px = 0.9375rem */
+}
+
+/* Mobile landscape */
+@media (min-width: 30rem) { /* 480px / 16px = 30rem */
+    .container {
+        max-width: 28.125rem; /* 450px / 16px = 28.125rem */
+    }
+}
+
+/* Tablet portrait */
+@media (min-width: 48rem) { /* 768px / 16px = 48rem */
+    .container {
+        max-width: 45rem; /* 720px / 16px = 45rem */
+    }
+}
+
+/* Tablet landscape */
+@media (min-width: 62rem) { /* 992px / 16px = 62rem */
+    .container {
+        max-width: 60rem; /* 960px / 16px = 60rem */
+    }
+}
+
+/* Large desktop/TV */
+@media (min-width: 75rem) { /* 1200px / 16px = 75rem */
+    .container {
+        max-width: 71.25rem; /* 1140px / 16px = 71.25rem */
+    }
+}
+
+

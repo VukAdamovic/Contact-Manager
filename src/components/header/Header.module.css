@@ -1,0 +1,43 @@
+#header {
+    font-family: inherit;
+    color: inherit;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #213035;
+    z-index: 1000;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.4);
+    padding: 0.75rem 0.938rem;
+    height: 6rem;
+}
+
+#header button {
+    background: transparent;
+    opacity: 0.5;
+    padding: 0.5rem;
+    border: none;
+}
+
+#logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo p {
+    font-family: 'Nothing You Could Do', cursive;
+    color: #2F7F77;
+    margin: 0;
+}
+
+@media (min-width: 62.5rem) {
+    #header {
+        justify-content: center;
+        gap: 4rem;
+    }
+}
